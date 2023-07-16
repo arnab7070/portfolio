@@ -707,6 +707,18 @@ video {
   width: max-content;
 }
 
+.w-80 {
+  width: 20rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.w-11 {
+  width: 2.75rem;
+}
+
 .flex-auto {
   flex: 1 1 auto;
 }
@@ -1402,6 +1414,11 @@ video {
   .md\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
+  }
+
+  .md\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
