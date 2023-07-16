@@ -702,6 +702,11 @@ video {
   width: 100vw;
 }
 
+.w-max {
+  width: -moz-max-content;
+  width: max-content;
+}
+
 .flex-auto {
   flex: 1 1 auto;
 }
