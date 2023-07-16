@@ -13,7 +13,7 @@
 </head>
 <body class="bg-slate-800">
   <div class="w-screen px-5 py-5">
-    <nav class="text-white font-serif flex justify-center space-x-1 md:space-x-35 mt-2">
+    <nav class="text-white font-serif flex justify-center space-x-1 md:space-x-32 lg:space-x-40 mt-2">
       <a href="#home" class="text-lg md:text-2xl hover:text-cyan-300 px-4 py-4 rounded-lg">Home</a>
       <a href="#about" class="text-lg md:text-2xl hover:text-cyan-300 px-4 py-4 rounded-lg">About</a>
       <a href="#projects" class="text-lg md:text-2xl hover:text-cyan-300 px-4 py-4 rounded-lg">Projects</a>
@@ -30,7 +30,7 @@
       <p class="text-3xl text-center md:text-5xl text-cyan-100 flex justify-center font-sans font-bold mt-10">“Every great achievement begins with a small step”</p>
       <p class="text-xl text-center md:text-5xl text-yellow-300 flex justify-center font-sans font-semibold mt-10">Welcome to my Portfolio</p>
       <p class="text-zinc-100 mt-10 text-center text-4xl font-sans">Hello, <strong>I'm Arnab Nandi</strong>, a passionate Computer Science Engineering student.</p>
-      <p class="text-zinc-100 mt-5 text-center text-2xl font-sans">My expertise lies in programming languages such as C, C++, Java, and Python. With a strong foundation in web and Android development, I have gained experience in utilizing frameworks like HUGO, Wordpress, Tailwind CSS and Bootstrap to create efficient and visually appealing websites. Currently, I am dedicated to expanding my skill set further by delving into Flutter, a powerful framework for advanced Android app development. I believe in continuous learning and strive to deliver high-quality solutions that push the boundaries of technology.</p>
+      <p class="text-zinc-100 mt-5 text-center text-xl md:text-2xl font-sans">My expertise lies in programming languages such as C, C++, Java, and Python. With a strong foundation in web and Android development, I have gained experience in utilizing frameworks like HUGO, Wordpress, Tailwind CSS and Bootstrap to create efficient and visually appealing websites. Currently, I am dedicated to expanding my skill set further by delving into Flutter, a powerful framework for advanced Android app development. I believe in continuous learning and strive to deliver high-quality solutions that push the boundaries of technology.</p>
       <div class="flex mt-16 justify-center space-x-6">
         <a href="#contact" class="bg-yellow-400 p-3 rounded-full font-semibold hover:bg-slate-900 text-slate-900 hover:text-yellow-400 hover:font-semibold">Contact Me</a>
         <a href="#projects" class="border-2 border-yellow-400 hover:bg-yellow-400 hover:text-slate-900 p-3 rounded-full text-white font-semibold flex items-center">
@@ -316,7 +316,7 @@
       <!-- Card 7 ends -->
       <!-- Card 8 -->
       <div class="w-96 lg:w-2/5 mb-10 bg-slate-900 rounded-3xl text-white p-5 font-sans border-2 shadow-md shadow-yellow-400 border-yellow-400">
-        <p class="text-center pb-2 text-xl font-semibold">Portfolio Website using Tailwind<span class="ml-3 text-white text-xs mr-2 px-2.5 py-0.5 rounded bg-green-600 font-semibold">Completed</span></p>
+        <p class="text-center pb-2 text-xl font-semibold">Portfolio Website using Tailwind CSS<span class="ml-3 text-white text-xs mr-2 px-2.5 py-0.5 rounded bg-green-600 font-semibold">Completed</span></p>
         <img src="images/tailwind.png" alt="PortfoliocTailwind" srcset="" class="rounded-3xl border-2 border-cyan-200 mb-5 mt-5">
         Having a deep passion for expanding my knowledge and staying up-to-date with the latest frameworks and technologies, It was an amazing experience to build this project because this is something I always want to explore. I have dedicated significant time and effort to mastering Tailwind CSS. Renowned for its intuitive approach and its capacity to streamline the development of visually captivating websites with exceptional user experiences, Tailwind CSS has become an essential component of my skill set. The website you are currently exploring is a testament to my extensive comprehension and expertise in utilizing Tailwind CSS exclusively. To gain a more profound understanding of the implementation and structure of this project, I invite you to kindly click the button below to access the source code.
         <div class="flex justify-center space-x-2 lg:space-x-6 mt-4">
@@ -359,34 +359,37 @@
       </div>
       
       <div class="h-auto w-auto rounded-3xl border-4 shadow-md shadow-emerald-200 border-emerald-500  p-10 m-10">
-        
-        <form>
+        <script type="text/javascript">var submitted = false;</script>
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"
+          onload="if(submitted) {window.location='thanks.html';}"></iframe>
+        <form action="https://docs.google.com/forms/d/e/1FAIpQLSdDd_J8DarkiRWOu4gdrDcUCi174QlUuBFpClhnIewunISmWg/formResponse"
+        method="POST" target="hidden_iframe" onsubmit="submitted=true;">
           <div class="mb-6">
-            <p class="text-white">Hello</p>
             <label for="email" class="block mb-2 text-sm font-medium text-white">Your email</label>
-            <input type="email" id="email" class="shadow-sm bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="name@gmail.com" required>
+            <input type="email" id="email" name="entry.1045781291" class="shadow-sm bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="name@gmail.com" required>
           </div>
           <div class="mb-6">
             <label for="name" class="block mb-2 text-sm font-medium text-white">Your Name</label>
-            <input type="text" id="name" class="shadow-sm bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required>
+            <input type="text" id="name" name="entry.2005620554" class="shadow-sm bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required>
           </div>
           <div class="mb-6">
             <label for="Message" class="block mb-2 text-sm font-medium text-white">Your Message</label>
-            <input type="text" id="Message" class="shadow-sm bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required>
+            <input type="text" id="Message" name="entry.839337160" class="shadow-sm bg-gray-50 border border-gray-300 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" required>
           </div>
           <div class="flex items-start mb-6">
             <div class="flex items-center h-5">
               <input id="terms" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300" required>
             </div>
-            <label for="terms" class="ml-2 text-sm font-medium text-white">I agree to use <a href="#" class="text-blue-600 hover:underline">my contact details</a> if required</label>
+            <label for="terms" class="ml-2 text-sm font-medium text-white">I agree to use <a href="#contact" class="text-blue-600 hover:underline">my contact details</a> if required</label>
           </div>
-          <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Send Message</button>
+          <div class="flex justify-center">
+            <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">Send Message</button>
+          </div>
         </form>
-
       </div>
     </div>
   </div>
-
+  <!-- Contact section content ends here-->
   </div>
 </body> 
 </html>
