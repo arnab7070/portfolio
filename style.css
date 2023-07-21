@@ -534,7 +534,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.html {
+html {
   scroll-behavior: smooth;
 }
 .static {
