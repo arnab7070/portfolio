@@ -838,11 +838,6 @@ video {
   border-color: rgb(165 243 252 / var(--tw-border-opacity));
 }
 
-.border-emerald-500 {
-  --tw-border-opacity: 1;
-  border-color: rgb(16 185 129 / var(--tw-border-opacity));
-}
-
 .border-gray-300 {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
@@ -1224,11 +1219,6 @@ video {
 
 .shadow-blue-300 {
   --tw-shadow-color: #93c5fd;
-  --tw-shadow: var(--tw-shadow-colored);
-}
-
-.shadow-emerald-200 {
-  --tw-shadow-color: #a7f3d0;
   --tw-shadow: var(--tw-shadow-colored);
 }
 
